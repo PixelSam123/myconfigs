@@ -12,7 +12,7 @@ call plug#end()
 lua << END
 require('lualine').setup {
     options = { 
-	theme = 'modus-vivendi'
+		theme = 'modus-vivendi'
     }
 }
 END
@@ -29,6 +29,7 @@ set nohlsearch
 
 " Personal adjustments
 set number
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
